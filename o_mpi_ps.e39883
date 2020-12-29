@@ -1,0 +1,19 @@
+usage: LearnerSimulation.py [-h] [--ps-ip PS_IP] [--ps-port PS_PORT]
+                            [--this-rank THIS_RANK] [--workers WORKERS]
+                            [--data-dir DATA_DIR] [--data-name DATA_NAME]
+                            [--model MODEL] [--save-path SAVE_PATH]
+                            [--epochs EPOCHS] [--lr LR]
+                            [--train-bsz TRAIN_BSZ]
+                            [--stale-threshold STALE_THRESHOLD]
+                            [--ratio RATIO] [--isCompensate ISCOMPENSATE]
+                            [--loops LOOPS] [--byzantine BYZANTINE] [--V V]
+                            [--T T] [--title TITLE] [--method METHOD]
+                            [--alpha ALPHA] [--beta BETA]
+LearnerSimulation.py: error: unrecognized arguments: --train_bsz=100
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47737,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
